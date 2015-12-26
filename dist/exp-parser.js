@@ -76,6 +76,11 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	_jsep2.default.removeBinaryOp("|");
 
+	/**
+	 * 暂时还没注入处理器的功能,还有一个就是表达式内使用new操作符的功能,
+	 * 这个比较麻烦,要修改jsep的源码,后面打算给jsep提个pr吧
+	 **/
+
 	var parseTree = function parseTree(target, scope) {
 	    var cache = {
 	        iterationObj: scope

@@ -6,6 +6,11 @@ import jsep from 'jsep'
 
 jsep.removeBinaryOp("|")
 
+/**
+ * 暂时还没注入处理器的功能,还有一个就是表达式内使用new操作符的功能,
+ * 这个比较麻烦,要修改jsep的源码,后面打算给jsep提个pr吧
+ **/
+
 const parseTree = (target, scope)=> {
     let cache = {
         iterationObj: scope
