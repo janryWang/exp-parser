@@ -1,5 +1,5 @@
 {
-  "name": "expression-parser",
+  "name": "exp-parser",
   "version": "1.0.1",
   "description": "expression parser",
   "main": "./lib",
@@ -7,8 +7,8 @@
     "test": "mocha --compilers js:babel-core/register --recursive",
     "test:watch": "npm test -- --watch",
     "build:lib": "babel src --out-dir lib",
-    "build:umd": "webpack src/index.js dist/expression-parser.js --config webpack.config.development.js",
-    "build:umd:min": "webpack src/index.js dist/expression-parser.min.js --config webpack.config.production.js",
+    "build:umd": "webpack src/index.js dist/exp-parser.js --config webpack.config.development.js",
+    "build:umd:min": "webpack src/index.js dist/exp-parser.min.js --config webpack.config.production.js",
     "build": "npm run build:lib && npm run build:umd && npm run build:umd:min",
     "cover": "babel-node node_modules/isparta/bin/isparta cover --report lcovonly node_modules/mocha/bin/_mocha -- -R spec",
     "coveralls": "babel-node node_modules/isparta/bin/isparta cover --report lcovonly node_modules/mocha/bin/_mocha -- -R spec  && cat coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
@@ -16,17 +16,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/janryWang/expression-parser.git"
+    "url": "https://github.com/janryWang/exp-parser.git"
   },
   "keywords": [
-    "expression-parser"
+    "exp-parser"
   ],
   "author": "janryWang",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/janryWang/expression-parser/issues"
+    "url": "https://github.com/janryWang/exp-parser/issues"
   },
-  "homepage": "https://github.com/janryWang/expression-parser#readme",
+  "homepage": "https://github.com/janryWang/exp-parser#readme",
   "dependencies": {
     "jsep": "~0.3.0"
   },

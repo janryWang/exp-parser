@@ -1,9 +1,15 @@
-[![npm version](https://badge.fury.io/js/expression-parser.svg)](https://badge.fury.io/js/expression-parser)
-[![Build Status](https://travis-ci.org/janryWang/expression-parser.svg)](https://travis-ci.org/janryWang/immutability-skinable-component)
-[![Coverage Status](https://coveralls.io/repos/janryWang/expression-parser/badge.svg?branch=master&service=github)](https://coveralls.io/github/janryWang/expression-parser?branch=master)
+[![npm version](https://badge.fury.io/js/exp-parser.svg)](https://badge.fury.io/js/exp-parser)
+[![Build Status](https://travis-ci.org/janryWang/exp-parser.svg)](https://travis-ci.org/janryWang/exp-parser)
+[![Coverage Status](https://coveralls.io/repos/janryWang/exp-parser/badge.svg?branch=master&service=github)](https://coveralls.io/github/janryWang/exp-parser?branch=master)
 
-Expression Parser
+Expression Parser(exp-parser)
 ===
+
+##安装
+
+```
+npm install --save exp-parser
+```
 
 ##问题
 
