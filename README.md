@@ -1,6 +1,6 @@
 [![npm version](https://badge.fury.io/js/exp-parser.svg)](https://badge.fury.io/js/exp-parser)
 [![Build Status](https://travis-ci.org/janryWang/exp-parser.svg)](https://travis-ci.org/janryWang/exp-parser)
-[![Coverage Status](https://coveralls.io/repos/janryWang/exp-parser/badge.svg?branch=master&service=github)](https://coveralls.io/github/janryWang/exp-parser?branch=master)
+[![Coverage Status](https://coveralls.io/repos/janryWang/exp-parser/badge.svg?branch=master&service=github)](https://coveralls.io/github/janryWang/exp-parser?branch=master) [![Greenkeeper badge](https://badges.greenkeeper.io/janryWang/exp-parser.svg)](https://greenkeeper.io/)
 
 Expression Parser(exp-parser)
 ===
